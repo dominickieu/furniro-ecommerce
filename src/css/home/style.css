@@ -321,3 +321,48 @@ li {
 }
 
 /* INSPIRATIONS */
+.content__inspirations {
+  background-color: #fcf8f3;
+  margin-top: 6.9rem;
+  padding: 4.4rem 0px 4.4rem 10rem;
+  display: flex;
+  align-items: center;
+  column-gap: 4.2rem;
+}
+
+.content__inspirations--text {
+  width: 44.2rem;
+}
+
+.content__inspirations--text h2 {
+  color: #3a3a3a;
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 4.8rem;
+}
+
+.content__inspirations--text p {
+  color: #616161;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 2.4rem;
+}
+
+.content__inspirations--text a {
+  display: flex;
+  background-color: var(--button-text-color);
+  width: 17.6rem;
+  height: 4.8rem;
+  font-weight: 600;
+  line-height: 2.4rem;
+  font-size: 1.6rem;
+  color: #ffffff;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2.5rem;
+}
+
+/* CONTENT SHARE */
+.content__share {
+  margin-top: 6.7rem;
+}
