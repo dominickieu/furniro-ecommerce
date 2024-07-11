@@ -1,0 +1,251 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+:root {
+  --prime-text-color: #333333;
+  --header-text-color: #000000;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  max-width: 144rem;
+  color: var(--prime-text-color);
+}
+
+a {
+  text-decoration: none;
+  color: var(--prime-text-color);
+}
+
+li {
+  list-style-type: none;
+}
+
+/* HEADER */
+/* NAVIGATION */
+.header__navigation {
+  height: 10rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 10rem 0px 5.4rem;
+  align-items: center;
+}
+
+.header__navigation--logo a {
+  display: flex;
+  align-items: center;
+}
+
+.header__navigation a {
+  color: var(--header-text-color);
+}
+
+.header__navigation--logo a span {
+  font-size: 3.4rem;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+}
+
+.header__navigation--menuText {
+  display: flex;
+  column-gap: 7.5rem;
+}
+
+.header__navigation--menuTextItem {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.header__navigation--menuIcon {
+  display: flex;
+  column-gap: 4.5rem;
+}
+
+/* HEADER BANNER */
+.header__banner {
+  background-image: url("../../img/home/banner-bg.png");
+  height: 71.2rem;
+  object-fit: cotain;
+  position: relative;
+}
+
+.header__banner--card {
+  width: 64.3rem;
+  display: inline-block;
+  border-radius: 1rem;
+  background: #fff3e3;
+  padding: 6.2rem 4.3rem 3.7rem 3.9rem;
+  position: absolute;
+  right: 5.8rem;
+  bottom: 11.2rem;
+}
+
+.header__banner--cardWelcome {
+  font-size: 1.6rem;
+  font-weight: 600;
+  letter-spacing: 0.3rem;
+}
+
+.header__banner--cardTitle {
+  color: #b88e2f;
+  font-size: 5.2rem;
+  font-weight: 700;
+  line-height: 6.5rem;
+  margin-top: 0.4rem;
+}
+
+.header__banner--cardDesc {
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 2.4rem;
+  margin-top: 1.7rem;
+}
+
+.header__banner--cardButton {
+  width: 22.2rem;
+  height: 7.4rem;
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: #b88e2f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4.6rem;
+}
+
+/* CONTENT */
+/* BROWSER */
+.content__browse {
+  margin-top: 5.6rem;
+}
+
+.content__browse--title {
+  font-size: 3.2rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.content__browse--desc {
+  color: #666;
+  font-size: 2rem;
+  font-weight: 400;
+  text-align: center;
+}
+
+.content__browse--menu {
+  display: flex;
+  column-gap: 2rem;
+  margin-top: 6.3rem;
+  justify-content: center;
+}
+
+.content__browse--menuItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content__browse--menuItem img {
+  border-radius: 1rem;
+}
+
+.content__browse--menuItem h4 {
+  font-size: 2.4rem;
+  font-weight: 600;
+  margin-top: 3rem;
+}
+
+/* CONTENT PRODUCTS */
+.content__products {
+  margin-top: 5.6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content__products--title {
+  color: #3a3a3a;
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 4.8rem;
+}
+
+.content__products--list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3.2rem;
+  justify-content: center;
+  margin-top: 3.2rem;
+}
+
+.content__products--listItem {
+  background-color: #f4f5f7;
+}
+
+.content__products--listItemText {
+  margin-top: 1.6rem;
+  padding-left: 1.6rem;
+  padding-bottom: 3rem;
+}
+
+.content__products--listItemText h4 {
+  color: #3a3a3a;
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 120%;
+}
+
+.content__products--listItemTextDesc {
+  color: #898989;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 2.4rem;
+}
+
+.content__products--listItemTextPrice {
+  margin-top: 0.8rem;
+}
+
+.content__products--listItemTextPriceNew {
+  color: #3a3a3a;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 3rem;
+}
+
+.content__products--listItemTextPriceOld {
+  color: #b0b0b0;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+  text-decoration: line-through;
+  margin-left: 1rem;
+}
+
+.content__products--button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24.5rem;
+  height: 4.8rem;
+  border: 0.1rem solid #b88e2f;
+  background: #fff;
+  color: #b88e2f;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 2.4rem;
+  margin-top: 3.2rem;
+}
