@@ -366,3 +366,106 @@ li {
 .content__share {
   margin-top: 6.7rem;
 }
+
+.content__share--welcome {
+  color: #616161;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 3rem;
+}
+
+.content__share--title {
+  color: #3a3a3a;
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 4.8rem;
+  text-align: center;
+}
+
+/* FOOTER */
+.footer {
+  border-top: 0.1rem solid rgba(0, 0, 0, 0.17);
+  padding: 4.8rem 10rem 3.8rem;
+  margin-top: 5rem;
+}
+
+.footer__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__list--item {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__list--item:last-of-type {
+  margin-right: 10.6rem;
+}
+
+.footer__list .footer__list--infoLogo {
+  color: #000;
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+.footer__list--infoAddress {
+  color: #9f9f9f;
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin-top: 5rem;
+}
+
+.footer__list--itemTitle {
+  color: #9f9f9f;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 0.9rem;
+}
+
+.footer__list--itemLink {
+  color: #000;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-top: 4.6rem;
+}
+
+.footer__list--itemForm {
+  margin-top: 5.3rem;
+}
+
+.footer__list--itemFormInput {
+  font-family: Poppins;
+  height: 2.1rem;
+  width: 20rem;
+  outline: none;
+  border: none;
+  color: #9f9f9f;
+  font-size: 14px;
+  font-weight: 400;
+  border-bottom: 0.1rem solid #000000;
+}
+
+.footer__list--itemFormSubmit {
+  color: #000;
+  font-size: 1.4rem;
+  font-weight: 500;
+  border: none;
+  font-family: Poppins;
+  margin-left: 1.1rem;
+  border-bottom: 0.1rem solid #000000;
+  background-color: unset;
+}
+
+.footer__cr {
+  border-top: 0.1rem solid #d9d9d9;
+  padding-top: 3.5rem;
+  margin-top: 4.8rem;
+}
+
+.footer__cr p {
+  color: #000;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
